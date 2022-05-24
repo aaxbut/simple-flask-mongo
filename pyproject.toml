@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "flask-mongo"
+version = "0.1.0"
+description = ""
+authors = ["Andrey A. But <aaxbut@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Flask = "^2.1.2"
+pydantic = "^1.9.1"
+flask-mongoengine = "^1.0.0"
+mongoengine = "^0.24.1"
+waitress = "^2.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

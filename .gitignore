@@ -1,0 +1,14 @@
+.idea/
+.vscode
+.python-version
+
+__pycache__/
+.pytest_cache/
+.mypy_cache
+
+.DS_Store
+.coverage
+tests-data/
+venv
+.venv
+coverage.xml
